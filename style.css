@@ -1,0 +1,61 @@
+/* Styling the body */
+body {
+    background-color: #f4d03f;
+    margin: 5%;
+    font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+#title {
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    font-size: 7vh;
+}
+
+/* Image styling */
+img {
+    display: block; 
+    margin: 0 auto;     width: 50%;
+    border-radius: 10px;
+}
+
+
+/* Image caption */
+#caption {
+    font-size: 17px;
+    font-family: Gill Sans, sans-serif;
+    color: black;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Content section styling */
+div#tribute-data {
+    background-color: rgba(155, 89, 182, 0.25);
+    box-shadow: 10px 10px 15px #ffee8c;
+    font-family: Georgia, serif;
+    padding: 25px;
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 60%; 
+    max-width: 800px;
+    font-family:"Georgia",serif;
+}
+
+/* Section title */
+h1.title-jkr {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 8px black;
+}
+
+/* Tribute link styling */
+#tribute-link {
+    width: 50%; /* Adjust width to match #tribute-data */
+    max-width: 800px; /* Optional: keep it consistent */
+    margin: 20px auto 0 auto; /* Centers it exactly like #tribute-data */
+    text-align: left; /* Ensures text aligns to the left */
+    font-size: 16px;
+}
